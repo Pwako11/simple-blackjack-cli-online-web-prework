@@ -3,10 +3,9 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
+def deal_card(1.11)
   # code #deal_card here
-  deal_card1 = (1..11)
-  rand1 = rand(deal_card1)
+  Rand(1..11)
 end
 
 def display_card_total
